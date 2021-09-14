@@ -1,0 +1,42 @@
+<emp>
+	<emp "a">
+		<name> jhon doe</name>
+		<adds> 
+		   <flat> </flat>
+		   <house>38</house>
+		   <road>03</road>
+		   <area>banani,dhaka</area>
+		</adds>
+		<det>sales </det>
+		<salary>20000 </salary>
+		
+	</emp>
+	
+	<emp "b">
+		<name> mark zuckerberg</name>
+		<adds> 
+		   <flat> a/1 </flat>
+		   <house>20</house>
+		   <road>18</road>
+		   <area>mirpur,dhaka</area>
+		</adds>
+		<det> accounts</det>
+		<salary> 12000</salary>
+		
+	</emp>
+	
+	<emp "c">
+		<name> ala vosker</name>
+		<adds> 
+		   <flat> </flat>
+		   <house>35</house>
+		   <road>03</road>
+		   <area>motijheel</area>
+		</adds>
+		<det>human resource </det>
+		<salary> 30000</salary>
+		
+	</emp>
+	
+	
+</emp>

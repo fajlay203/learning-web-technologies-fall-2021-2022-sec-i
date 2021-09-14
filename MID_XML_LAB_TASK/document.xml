@@ -1,0 +1,23 @@
+<document>
+	<document "a">
+		<name>Samsung</name>
+		<u_price> 235000</u_price>
+		<stock> 50</stock>
+		<status>1</status>
+	</document>
+	
+	<document "b">
+		<name>HTC</name>
+		<u_price> 65000 </u_price>
+		<stock> 35</stock>
+		<status></status>
+	</document>
+	
+	<document "C">
+		<name>Nokia</name>
+		<u_price> 25100</u_price>
+		<stock> 100 </stock>
+		<status>1</status>
+	</document>
+	
+</document>

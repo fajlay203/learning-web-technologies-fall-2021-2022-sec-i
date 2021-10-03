@@ -3,9 +3,9 @@
 
 	
 	if(isset($_REQUEST['submit'])){
-		$email = $_REQUEST['myemail'];
-		if($email != ""){
-			echo $email;
+		$birthday = $_REQUEST['mybirthday'];
+		if($birthday != ""){
+			echo $birthday;
 		}else{
 			echo "Null value...";
 		}
@@ -20,7 +20,7 @@
 </head>
 <body>
 	<form method="post" >
-		Email: <input type="email" name="myemail" value="<?php if(isset($email)){ echo $name; }?>"/>
+      BirthDay: <input type="date" name="mybirthday" value="<?php if(isset($birthday)){ echo $birthday; }?>"/>
 		<input type="submit" name="submit" value="Submit">
 	</form>
 </body>

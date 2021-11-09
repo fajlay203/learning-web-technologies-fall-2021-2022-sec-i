@@ -1,10 +1,10 @@
 <?php 
-	include('header.php');
+	
 ?>
 
 <html>
 <head>
-	<title>Create New User Page</title>
+	<title>Create New User </title>
 </head>
 <body>
 	<center>
@@ -12,7 +12,7 @@
 		<a href="../controller/logout.php">logout </a>
 	</center>
 	
-	<form method="post" action="signupCheck.php">
+	<form method="post" action="../controller/addUser.php">
 		<fieldset>
 			<legend>Create New</legend>
 			<table>
@@ -29,7 +29,8 @@
 					<td><input type="email" name="email" value=""></td>
 				</tr>
 				<tr>
-					<td></td>
+					<td> <td><input type="hidden" name="id" value="<?=$user['id']?>"></td> 
+					
 					<td><input type="submit" name="submit" value="Create"></td>
 				</tr>
 			</table>

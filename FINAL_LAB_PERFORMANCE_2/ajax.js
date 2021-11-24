@@ -1,4 +1,4 @@
-<?php
+
 
 if(isset($_POST)){
     extract($_POST);
@@ -43,8 +43,9 @@ if(isset($_POST)){
         default: $out = $old;
     }
     echo $out;
-	?>
-            $(document).ready(function(){
+} 
+
+ $(document).ready(function(){
                 //general
                 $('input[type=button]').click(function(){
                     var num = $(this).val();
@@ -86,7 +87,5 @@ if(isset($_POST)){
                            );
                 });
             });
-        </script>
-    </head>
-    <body>
-	
+        
+

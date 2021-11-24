@@ -41,7 +41,7 @@
         <td colspan="5"><input id="eql" value="=" type="button" class="eql"></td>
     </tr>
 </table>
-        <script src="script.js"></script>
+        <script src="ajax.js"></script>
    </body>
 </html>
 
